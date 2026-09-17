@@ -1,0 +1,104 @@
+[
+  {
+    "weight_multiplier": 1,
+    "pattern": 0,
+    "duration_ms": 1000,
+    "total_spikes": 386581,
+    "active_neurons": 9049,
+    "kc_spikes": 0,
+    "mbon_spikes": 0,
+    "answer": null,
+    "rates_hz": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 1.209
+  },
+  {
+    "weight_multiplier": 1,
+    "pattern": 3,
+    "duration_ms": 1000,
+    "total_spikes": 348136,
+    "active_neurons": 8921,
+    "kc_spikes": 0,
+    "mbon_spikes": 0,
+    "answer": null,
+    "rates_hz": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 1.231
+  },
+  {
+    "weight_multiplier": 2,
+    "pattern": 0,
+    "duration_ms": 1000,
+    "total_spikes": 2423106,
+    "active_neurons": 44182,
+    "kc_spikes": 739661,
+    "mbon_spikes": 26369,
+    "answer": 0,
+    "rates_hz": [
+      368.5,
+      326.5,
+      326.5,
+      324.0
+    ],
+    "wall_seconds": 14.358
+  },
+  {
+    "weight_multiplier": 2,
+    "pattern": 3,
+    "duration_ms": 1000,
+    "total_spikes": 2332986,
+    "active_neurons": 42667,
+    "kc_spikes": 722354,
+    "mbon_spikes": 25860,
+    "answer": 0,
+    "rates_hz": [
+      364.0,
+      320.5,
+      320.5,
+      319.0
+    ],
+    "wall_seconds": 22.347
+  },
+  {
+    "weight_multiplier": 4,
+    "pattern": 0,
+    "duration_ms": 1000,
+    "total_spikes": 3586784,
+    "active_neurons": 80326,
+    "kc_spikes": 945929,
+    "mbon_spikes": 30344,
+    "answer": 0,
+    "rates_hz": [
+      397.5,
+      363.5,
+      357.0,
+      363.0
+    ],
+    "wall_seconds": 16.666
+  },
+  {
+    "weight_multiplier": 4,
+    "pattern": 3,
+    "duration_ms": 1000,
+    "total_spikes": 3581836,
+    "active_neurons": 80873,
+    "kc_spikes": 950107,
+    "mbon_spikes": 30440,
+    "answer": 0,
+    "rates_hz": [
+      397.0,
+      363.75,
+      359.5,
+      363.25
+    ],
+    "wall_seconds": 16.139
+  }
+]

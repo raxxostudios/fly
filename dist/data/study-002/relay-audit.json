@@ -1,0 +1,697 @@
+{
+  "id": "FLY-002-relay-audit",
+  "created_at": "2026-09-14T17:55:41.620024+00:00",
+  "source_sha256": "57b7940d93aaa019c5c5f694eb69e33de7dc468a0190eb47916070e1578ef9ea",
+  "protocol_sha256": "b7e05118b833e8fb6f8e26206c3334f9e7df30749e54a062a232cae2021baac9",
+  "configs": [
+    {
+      "sensor": "linear",
+      "visual_interface": true,
+      "coverage": "marginal_rank",
+      "kc_recurrent_gain": 0.1,
+      "output_input_gain": 0.1,
+      "external_kc_gain_only": true,
+      "output_tonic": 6.5,
+      "id": "relay_optic0.0_gain1.0",
+      "kc_tonic": 6.8,
+      "kc_input_gain": 1.0,
+      "projection_tonic": 6.0,
+      "optic_tonic": 0.0
+    },
+    {
+      "sensor": "linear",
+      "visual_interface": true,
+      "coverage": "marginal_rank",
+      "kc_recurrent_gain": 0.1,
+      "output_input_gain": 0.1,
+      "external_kc_gain_only": true,
+      "output_tonic": 6.5,
+      "id": "relay_optic0.0_gain4.0",
+      "kc_tonic": 6.8,
+      "kc_input_gain": 4.0,
+      "projection_tonic": 6.0,
+      "optic_tonic": 0.0
+    },
+    {
+      "sensor": "linear",
+      "visual_interface": true,
+      "coverage": "marginal_rank",
+      "kc_recurrent_gain": 0.1,
+      "output_input_gain": 0.1,
+      "external_kc_gain_only": true,
+      "output_tonic": 6.5,
+      "id": "relay_optic3.0_gain1.0",
+      "kc_tonic": 6.8,
+      "kc_input_gain": 1.0,
+      "projection_tonic": 6.0,
+      "optic_tonic": 3.0
+    },
+    {
+      "sensor": "linear",
+      "visual_interface": true,
+      "coverage": "marginal_rank",
+      "kc_recurrent_gain": 0.1,
+      "output_input_gain": 0.1,
+      "external_kc_gain_only": true,
+      "output_tonic": 6.5,
+      "id": "relay_optic3.0_gain4.0",
+      "kc_tonic": 6.8,
+      "kc_input_gain": 4.0,
+      "projection_tonic": 6.0,
+      "optic_tonic": 3.0
+    },
+    {
+      "sensor": "linear",
+      "visual_interface": true,
+      "coverage": "marginal_rank",
+      "kc_recurrent_gain": 0.1,
+      "output_input_gain": 0.1,
+      "external_kc_gain_only": true,
+      "output_tonic": 6.5,
+      "id": "relay_optic5.0_gain1.0",
+      "kc_tonic": 6.8,
+      "kc_input_gain": 1.0,
+      "projection_tonic": 6.0,
+      "optic_tonic": 5.0
+    },
+    {
+      "sensor": "linear",
+      "visual_interface": true,
+      "coverage": "marginal_rank",
+      "kc_recurrent_gain": 0.1,
+      "output_input_gain": 0.1,
+      "external_kc_gain_only": true,
+      "output_tonic": 6.5,
+      "id": "relay_optic5.0_gain4.0",
+      "kc_tonic": 6.8,
+      "kc_input_gain": 4.0,
+      "projection_tonic": 6.0,
+      "optic_tonic": 5.0
+    }
+  ],
+  "records": [
+    {
+      "selected": 2,
+      "rates_hz": [
+        55.0,
+        3.75,
+        62.5,
+        0.0
+      ],
+      "total_spikes": 180007,
+      "active_neurons": 17971,
+      "kc_spikes": 1156,
+      "kc_active": 211,
+      "answer_spikes": 141,
+      "wall_seconds": 1.49454,
+      "simulated_ms": 400,
+      "config": "relay_optic0.0_gain1.0",
+      "stimulus": "blank",
+      "retinal_active": 0
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        165.0,
+        15.0,
+        177.5,
+        28.75
+      ],
+      "total_spikes": 374156,
+      "active_neurons": 26781,
+      "kc_spikes": 50223,
+      "kc_active": 3142,
+      "answer_spikes": 441,
+      "wall_seconds": 2.34442,
+      "simulated_ms": 400,
+      "config": "relay_optic0.0_gain1.0",
+      "stimulus": 0,
+      "retinal_active": 388
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        56.875,
+        1.25,
+        61.25,
+        0.0
+      ],
+      "total_spikes": 203985,
+      "active_neurons": 18962,
+      "kc_spikes": 1249,
+      "kc_active": 213,
+      "answer_spikes": 141,
+      "wall_seconds": 1.28999,
+      "simulated_ms": 400,
+      "config": "relay_optic0.0_gain1.0",
+      "stimulus": 1,
+      "retinal_active": 552
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        51.875,
+        0.0,
+        46.25,
+        0.0
+      ],
+      "total_spikes": 186988,
+      "active_neurons": 18110,
+      "kc_spikes": 1050,
+      "kc_active": 211,
+      "answer_spikes": 120,
+      "wall_seconds": 1.34831,
+      "simulated_ms": 400,
+      "config": "relay_optic0.0_gain1.0",
+      "stimulus": 2,
+      "retinal_active": 239
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        55.0,
+        0.0,
+        55.0,
+        0.0
+      ],
+      "total_spikes": 204862,
+      "active_neurons": 18578,
+      "kc_spikes": 1107,
+      "kc_active": 207,
+      "answer_spikes": 132,
+      "wall_seconds": 1.35317,
+      "simulated_ms": 400,
+      "config": "relay_optic0.0_gain1.0",
+      "stimulus": 3,
+      "retinal_active": 622
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        78.125,
+        5.0,
+        76.25,
+        18.75
+      ],
+      "total_spikes": 213928,
+      "active_neurons": 25417,
+      "kc_spikes": 20605,
+      "kc_active": 3592,
+      "answer_spikes": 205,
+      "wall_seconds": 1.45474,
+      "simulated_ms": 400,
+      "config": "relay_optic0.0_gain4.0",
+      "stimulus": "blank",
+      "retinal_active": 0
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        51.875,
+        2.5,
+        53.75,
+        0.0
+      ],
+      "total_spikes": 196620,
+      "active_neurons": 18088,
+      "kc_spikes": 1552,
+      "kc_active": 271,
+      "answer_spikes": 128,
+      "wall_seconds": 1.58241,
+      "simulated_ms": 400,
+      "config": "relay_optic0.0_gain4.0",
+      "stimulus": 0,
+      "retinal_active": 388
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        53.75,
+        1.25,
+        51.25,
+        0.0
+      ],
+      "total_spikes": 205879,
+      "active_neurons": 18975,
+      "kc_spikes": 1701,
+      "kc_active": 319,
+      "answer_spikes": 128,
+      "wall_seconds": 1.37632,
+      "simulated_ms": 400,
+      "config": "relay_optic0.0_gain4.0",
+      "stimulus": 1,
+      "retinal_active": 552
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        51.25,
+        1.25,
+        50.0,
+        0.0
+      ],
+      "total_spikes": 188288,
+      "active_neurons": 18477,
+      "kc_spikes": 1574,
+      "kc_active": 276,
+      "answer_spikes": 123,
+      "wall_seconds": 1.26741,
+      "simulated_ms": 400,
+      "config": "relay_optic0.0_gain4.0",
+      "stimulus": 2,
+      "retinal_active": 239
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        56.25,
+        2.5,
+        53.75,
+        0.0
+      ],
+      "total_spikes": 207133,
+      "active_neurons": 18972,
+      "kc_spikes": 1537,
+      "kc_active": 258,
+      "answer_spikes": 135,
+      "wall_seconds": 1.3403,
+      "simulated_ms": 400,
+      "config": "relay_optic0.0_gain4.0",
+      "stimulus": 3,
+      "retinal_active": 622
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        57.5,
+        3.75,
+        63.75,
+        0.0
+      ],
+      "total_spikes": 186431,
+      "active_neurons": 20936,
+      "kc_spikes": 1236,
+      "kc_active": 207,
+      "answer_spikes": 146,
+      "wall_seconds": 1.40532,
+      "simulated_ms": 400,
+      "config": "relay_optic3.0_gain1.0",
+      "stimulus": "blank",
+      "retinal_active": 0
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        160.625,
+        17.5,
+        171.25,
+        38.75
+      ],
+      "total_spikes": 377756,
+      "active_neurons": 29386,
+      "kc_spikes": 50322,
+      "kc_active": 3147,
+      "answer_spikes": 439,
+      "wall_seconds": 2.59621,
+      "simulated_ms": 400,
+      "config": "relay_optic3.0_gain1.0",
+      "stimulus": 0,
+      "retinal_active": 388
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        53.75,
+        3.75,
+        53.75,
+        0.0
+      ],
+      "total_spikes": 209307,
+      "active_neurons": 21317,
+      "kc_spikes": 1146,
+      "kc_active": 213,
+      "answer_spikes": 132,
+      "wall_seconds": 1.36955,
+      "simulated_ms": 400,
+      "config": "relay_optic3.0_gain1.0",
+      "stimulus": 1,
+      "retinal_active": 552
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        50.625,
+        2.5,
+        60.0,
+        0.0
+      ],
+      "total_spikes": 193833,
+      "active_neurons": 20644,
+      "kc_spikes": 1250,
+      "kc_active": 215,
+      "answer_spikes": 131,
+      "wall_seconds": 1.42406,
+      "simulated_ms": 400,
+      "config": "relay_optic3.0_gain1.0",
+      "stimulus": 2,
+      "retinal_active": 239
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        55.0,
+        2.5,
+        51.25,
+        0.0
+      ],
+      "total_spikes": 210789,
+      "active_neurons": 21308,
+      "kc_spikes": 1098,
+      "kc_active": 215,
+      "answer_spikes": 131,
+      "wall_seconds": 1.42454,
+      "simulated_ms": 400,
+      "config": "relay_optic3.0_gain1.0",
+      "stimulus": 3,
+      "retinal_active": 622
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        178.75,
+        45.0,
+        183.75,
+        140.0
+      ],
+      "total_spikes": 445971,
+      "active_neurons": 29914,
+      "kc_spikes": 126821,
+      "kc_active": 3793,
+      "answer_spikes": 581,
+      "wall_seconds": 2.68573,
+      "simulated_ms": 400,
+      "config": "relay_optic3.0_gain4.0",
+      "stimulus": "blank",
+      "retinal_active": 0
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        180.625,
+        46.25,
+        187.5,
+        133.75
+      ],
+      "total_spikes": 456159,
+      "active_neurons": 30749,
+      "kc_spikes": 123374,
+      "kc_active": 3843,
+      "answer_spikes": 583,
+      "wall_seconds": 2.56966,
+      "simulated_ms": 400,
+      "config": "relay_optic3.0_gain4.0",
+      "stimulus": 0,
+      "retinal_active": 388
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        180.0,
+        43.75,
+        181.25,
+        133.75
+      ],
+      "total_spikes": 459370,
+      "active_neurons": 30394,
+      "kc_spikes": 123198,
+      "kc_active": 3841,
+      "answer_spikes": 575,
+      "wall_seconds": 2.51427,
+      "simulated_ms": 400,
+      "config": "relay_optic3.0_gain4.0",
+      "stimulus": 1,
+      "retinal_active": 552
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        181.875,
+        46.25,
+        190.0,
+        141.25
+      ],
+      "total_spikes": 453457,
+      "active_neurons": 29695,
+      "kc_spikes": 126281,
+      "kc_active": 3791,
+      "answer_spikes": 593,
+      "wall_seconds": 2.55927,
+      "simulated_ms": 400,
+      "config": "relay_optic3.0_gain4.0",
+      "stimulus": 2,
+      "retinal_active": 239
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        179.375,
+        43.75,
+        176.25,
+        130.0
+      ],
+      "total_spikes": 459772,
+      "active_neurons": 30450,
+      "kc_spikes": 122080,
+      "kc_active": 3789,
+      "answer_spikes": 567,
+      "wall_seconds": 2.6323,
+      "simulated_ms": 400,
+      "config": "relay_optic3.0_gain4.0",
+      "stimulus": 3,
+      "retinal_active": 622
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        101.875,
+        6.25,
+        107.5,
+        11.25
+      ],
+      "total_spikes": 291087,
+      "active_neurons": 39688,
+      "kc_spikes": 20601,
+      "kc_active": 3061,
+      "answer_spikes": 263,
+      "wall_seconds": 2.24216,
+      "simulated_ms": 400,
+      "config": "relay_optic5.0_gain1.0",
+      "stimulus": "blank",
+      "retinal_active": 0
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        51.875,
+        1.25,
+        60.0,
+        1.25
+      ],
+      "total_spikes": 230779,
+      "active_neurons": 30910,
+      "kc_spikes": 1051,
+      "kc_active": 213,
+      "answer_spikes": 133,
+      "wall_seconds": 1.69783,
+      "simulated_ms": 400,
+      "config": "relay_optic5.0_gain1.0",
+      "stimulus": 0,
+      "retinal_active": 388
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        57.5,
+        1.25,
+        58.75,
+        0.0
+      ],
+      "total_spikes": 238099,
+      "active_neurons": 30856,
+      "kc_spikes": 1207,
+      "kc_active": 211,
+      "answer_spikes": 140,
+      "wall_seconds": 1.63423,
+      "simulated_ms": 400,
+      "config": "relay_optic5.0_gain1.0",
+      "stimulus": 1,
+      "retinal_active": 552
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        50.625,
+        5.0,
+        56.25,
+        0.0
+      ],
+      "total_spikes": 227469,
+      "active_neurons": 31505,
+      "kc_spikes": 1242,
+      "kc_active": 222,
+      "answer_spikes": 130,
+      "wall_seconds": 1.51602,
+      "simulated_ms": 400,
+      "config": "relay_optic5.0_gain1.0",
+      "stimulus": 2,
+      "retinal_active": 239
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        56.25,
+        1.25,
+        60.0,
+        0.0
+      ],
+      "total_spikes": 244830,
+      "active_neurons": 31242,
+      "kc_spikes": 1217,
+      "kc_active": 217,
+      "answer_spikes": 139,
+      "wall_seconds": 1.53588,
+      "simulated_ms": 400,
+      "config": "relay_optic5.0_gain1.0",
+      "stimulus": 3,
+      "retinal_active": 622
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        60.0,
+        2.5,
+        55.0,
+        0.0
+      ],
+      "total_spikes": 220579,
+      "active_neurons": 32031,
+      "kc_spikes": 1566,
+      "kc_active": 296,
+      "answer_spikes": 142,
+      "wall_seconds": 1.74447,
+      "simulated_ms": 400,
+      "config": "relay_optic5.0_gain4.0",
+      "stimulus": "blank",
+      "retinal_active": 0
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        51.875,
+        1.25,
+        57.5,
+        0.0
+      ],
+      "total_spikes": 232141,
+      "active_neurons": 31300,
+      "kc_spikes": 1510,
+      "kc_active": 263,
+      "answer_spikes": 130,
+      "wall_seconds": 1.63606,
+      "simulated_ms": 400,
+      "config": "relay_optic5.0_gain4.0",
+      "stimulus": 0,
+      "retinal_active": 388
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        56.25,
+        1.25,
+        55.0,
+        0.0
+      ],
+      "total_spikes": 238170,
+      "active_neurons": 31009,
+      "kc_spikes": 1686,
+      "kc_active": 269,
+      "answer_spikes": 135,
+      "wall_seconds": 1.65487,
+      "simulated_ms": 400,
+      "config": "relay_optic5.0_gain4.0",
+      "stimulus": 1,
+      "retinal_active": 552
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        50.0,
+        1.25,
+        63.75,
+        0.0
+      ],
+      "total_spikes": 223471,
+      "active_neurons": 31351,
+      "kc_spikes": 1506,
+      "kc_active": 275,
+      "answer_spikes": 132,
+      "wall_seconds": 1.6147,
+      "simulated_ms": 400,
+      "config": "relay_optic5.0_gain4.0",
+      "stimulus": 2,
+      "retinal_active": 239
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        57.5,
+        1.25,
+        43.75,
+        0.0
+      ],
+      "total_spikes": 241226,
+      "active_neurons": 30310,
+      "kc_spikes": 1423,
+      "kc_active": 293,
+      "answer_spikes": 128,
+      "wall_seconds": 1.58731,
+      "simulated_ms": 400,
+      "config": "relay_optic5.0_gain4.0",
+      "stimulus": 3,
+      "retinal_active": 622
+    }
+  ],
+  "selected_config": null,
+  "selection_checks": [
+    {
+      "config": "relay_optic0.0_gain1.0",
+      "minimum_pairwise_KC_L1": 189,
+      "qualifies": false
+    },
+    {
+      "config": "relay_optic0.0_gain4.0",
+      "minimum_pairwise_KC_L1": 406,
+      "qualifies": false
+    },
+    {
+      "config": "relay_optic3.0_gain1.0",
+      "minimum_pairwise_KC_L1": 176,
+      "qualifies": false
+    },
+    {
+      "config": "relay_optic3.0_gain4.0",
+      "minimum_pairwise_KC_L1": 4648,
+      "qualifies": false
+    },
+    {
+      "config": "relay_optic5.0_gain1.0",
+      "minimum_pairwise_KC_L1": 174,
+      "qualifies": false
+    },
+    {
+      "config": "relay_optic5.0_gain4.0",
+      "minimum_pairwise_KC_L1": 395,
+      "qualifies": false
+    }
+  ]
+}

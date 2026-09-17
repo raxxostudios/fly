@@ -1,0 +1,925 @@
+{
+  "id": "FLY-002-relay-fine-audit",
+  "created_at": "2026-09-14T17:58:12.240240+00:00",
+  "source_sha256": "91cdc388be8b01e66a3a7dd540d6317df1e5d148c8bf7fc9a07556bd64ad1a84",
+  "protocol_sha256": "459c17672352547d2030d38d9f8cce1170804d8f02d79e784448fae66c0dce39",
+  "configs": [
+    {
+      "sensor": "linear",
+      "visual_interface": true,
+      "coverage": "marginal_rank",
+      "kc_recurrent_gain": 0.1,
+      "output_input_gain": 0.1,
+      "external_kc_gain_only": true,
+      "output_tonic": 6.5,
+      "id": "fine_projection2.0_kc6.4",
+      "kc_tonic": 6.4,
+      "kc_input_gain": 1.0,
+      "projection_tonic": 2.0,
+      "optic_tonic": 0.0
+    },
+    {
+      "sensor": "linear",
+      "visual_interface": true,
+      "coverage": "marginal_rank",
+      "kc_recurrent_gain": 0.1,
+      "output_input_gain": 0.1,
+      "external_kc_gain_only": true,
+      "output_tonic": 6.5,
+      "id": "fine_projection2.0_kc6.8",
+      "kc_tonic": 6.8,
+      "kc_input_gain": 1.0,
+      "projection_tonic": 2.0,
+      "optic_tonic": 0.0
+    },
+    {
+      "sensor": "linear",
+      "visual_interface": true,
+      "coverage": "marginal_rank",
+      "kc_recurrent_gain": 0.1,
+      "output_input_gain": 0.1,
+      "external_kc_gain_only": true,
+      "output_tonic": 6.5,
+      "id": "fine_projection3.0_kc6.4",
+      "kc_tonic": 6.4,
+      "kc_input_gain": 1.0,
+      "projection_tonic": 3.0,
+      "optic_tonic": 0.0
+    },
+    {
+      "sensor": "linear",
+      "visual_interface": true,
+      "coverage": "marginal_rank",
+      "kc_recurrent_gain": 0.1,
+      "output_input_gain": 0.1,
+      "external_kc_gain_only": true,
+      "output_tonic": 6.5,
+      "id": "fine_projection3.0_kc6.8",
+      "kc_tonic": 6.8,
+      "kc_input_gain": 1.0,
+      "projection_tonic": 3.0,
+      "optic_tonic": 0.0
+    },
+    {
+      "sensor": "linear",
+      "visual_interface": true,
+      "coverage": "marginal_rank",
+      "kc_recurrent_gain": 0.1,
+      "output_input_gain": 0.1,
+      "external_kc_gain_only": true,
+      "output_tonic": 6.5,
+      "id": "fine_projection4.0_kc6.4",
+      "kc_tonic": 6.4,
+      "kc_input_gain": 1.0,
+      "projection_tonic": 4.0,
+      "optic_tonic": 0.0
+    },
+    {
+      "sensor": "linear",
+      "visual_interface": true,
+      "coverage": "marginal_rank",
+      "kc_recurrent_gain": 0.1,
+      "output_input_gain": 0.1,
+      "external_kc_gain_only": true,
+      "output_tonic": 6.5,
+      "id": "fine_projection4.0_kc6.8",
+      "kc_tonic": 6.8,
+      "kc_input_gain": 1.0,
+      "projection_tonic": 4.0,
+      "optic_tonic": 0.0
+    },
+    {
+      "sensor": "linear",
+      "visual_interface": true,
+      "coverage": "marginal_rank",
+      "kc_recurrent_gain": 0.1,
+      "output_input_gain": 0.1,
+      "external_kc_gain_only": true,
+      "output_tonic": 6.5,
+      "id": "fine_projection5.0_kc6.4",
+      "kc_tonic": 6.4,
+      "kc_input_gain": 1.0,
+      "projection_tonic": 5.0,
+      "optic_tonic": 0.0
+    },
+    {
+      "sensor": "linear",
+      "visual_interface": true,
+      "coverage": "marginal_rank",
+      "kc_recurrent_gain": 0.1,
+      "output_input_gain": 0.1,
+      "external_kc_gain_only": true,
+      "output_tonic": 6.5,
+      "id": "fine_projection5.0_kc6.8",
+      "kc_tonic": 6.8,
+      "kc_input_gain": 1.0,
+      "projection_tonic": 5.0,
+      "optic_tonic": 0.0
+    }
+  ],
+  "records": [
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 108735,
+      "active_neurons": 8676,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.44461,
+      "simulated_ms": 400,
+      "config": "fine_projection2.0_kc6.4",
+      "stimulus": "blank",
+      "retinal_active": 0
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 123875,
+      "active_neurons": 8838,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.46639,
+      "simulated_ms": 400,
+      "config": "fine_projection2.0_kc6.4",
+      "stimulus": 0,
+      "retinal_active": 388
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 130718,
+      "active_neurons": 8975,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.64954,
+      "simulated_ms": 400,
+      "config": "fine_projection2.0_kc6.4",
+      "stimulus": 1,
+      "retinal_active": 552
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 117608,
+      "active_neurons": 8782,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.47433,
+      "simulated_ms": 400,
+      "config": "fine_projection2.0_kc6.4",
+      "stimulus": 2,
+      "retinal_active": 239
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 133137,
+      "active_neurons": 8898,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.51403,
+      "simulated_ms": 400,
+      "config": "fine_projection2.0_kc6.4",
+      "stimulus": 3,
+      "retinal_active": 622
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 108735,
+      "active_neurons": 8676,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.49398,
+      "simulated_ms": 400,
+      "config": "fine_projection2.0_kc6.8",
+      "stimulus": "blank",
+      "retinal_active": 0
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 123875,
+      "active_neurons": 8838,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.54555,
+      "simulated_ms": 400,
+      "config": "fine_projection2.0_kc6.8",
+      "stimulus": 0,
+      "retinal_active": 388
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 130718,
+      "active_neurons": 8975,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.62918,
+      "simulated_ms": 400,
+      "config": "fine_projection2.0_kc6.8",
+      "stimulus": 1,
+      "retinal_active": 552
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 117608,
+      "active_neurons": 8782,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.45443,
+      "simulated_ms": 400,
+      "config": "fine_projection2.0_kc6.8",
+      "stimulus": 2,
+      "retinal_active": 239
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 133137,
+      "active_neurons": 8898,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.45244,
+      "simulated_ms": 400,
+      "config": "fine_projection2.0_kc6.8",
+      "stimulus": 3,
+      "retinal_active": 622
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        38.125,
+        0.0,
+        41.25,
+        0.0
+      ],
+      "total_spikes": 159557,
+      "active_neurons": 16702,
+      "kc_spikes": 793,
+      "kc_active": 217,
+      "answer_spikes": 94,
+      "wall_seconds": 1.21087,
+      "simulated_ms": 400,
+      "config": "fine_projection3.0_kc6.4",
+      "stimulus": "blank",
+      "retinal_active": 0
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 123851,
+      "active_neurons": 8868,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.47948,
+      "simulated_ms": 400,
+      "config": "fine_projection3.0_kc6.4",
+      "stimulus": 0,
+      "retinal_active": 388
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 131296,
+      "active_neurons": 8995,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.44494,
+      "simulated_ms": 400,
+      "config": "fine_projection3.0_kc6.4",
+      "stimulus": 1,
+      "retinal_active": 552
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        70.625,
+        1.25,
+        61.25,
+        3.75
+      ],
+      "total_spikes": 211814,
+      "active_neurons": 24669,
+      "kc_spikes": 11228,
+      "kc_active": 2952,
+      "answer_spikes": 166,
+      "wall_seconds": 1.34117,
+      "simulated_ms": 400,
+      "config": "fine_projection3.0_kc6.4",
+      "stimulus": 2,
+      "retinal_active": 239
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        40.625,
+        0.0,
+        32.5,
+        0.0
+      ],
+      "total_spikes": 182147,
+      "active_neurons": 16715,
+      "kc_spikes": 829,
+      "kc_active": 220,
+      "answer_spikes": 91,
+      "wall_seconds": 1.20069,
+      "simulated_ms": 400,
+      "config": "fine_projection3.0_kc6.4",
+      "stimulus": 3,
+      "retinal_active": 622
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        41.25,
+        1.25,
+        42.5,
+        0.0
+      ],
+      "total_spikes": 157655,
+      "active_neurons": 16489,
+      "kc_spikes": 793,
+      "kc_active": 193,
+      "answer_spikes": 101,
+      "wall_seconds": 1.04948,
+      "simulated_ms": 400,
+      "config": "fine_projection3.0_kc6.8",
+      "stimulus": "blank",
+      "retinal_active": 0
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 123851,
+      "active_neurons": 8868,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.6843,
+      "simulated_ms": 400,
+      "config": "fine_projection3.0_kc6.8",
+      "stimulus": 0,
+      "retinal_active": 388
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 131296,
+      "active_neurons": 8995,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.59281,
+      "simulated_ms": 400,
+      "config": "fine_projection3.0_kc6.8",
+      "stimulus": 1,
+      "retinal_active": 552
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        38.75,
+        2.5,
+        47.5,
+        0.0
+      ],
+      "total_spikes": 169251,
+      "active_neurons": 16908,
+      "kc_spikes": 924,
+      "kc_active": 218,
+      "answer_spikes": 102,
+      "wall_seconds": 1.31559,
+      "simulated_ms": 400,
+      "config": "fine_projection3.0_kc6.8",
+      "stimulus": 2,
+      "retinal_active": 239
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        33.125,
+        2.5,
+        38.75,
+        1.25
+      ],
+      "total_spikes": 182450,
+      "active_neurons": 16858,
+      "kc_spikes": 844,
+      "kc_active": 207,
+      "answer_spikes": 87,
+      "wall_seconds": 1.04549,
+      "simulated_ms": 400,
+      "config": "fine_projection3.0_kc6.8",
+      "stimulus": 3,
+      "retinal_active": 622
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        44.375,
+        2.5,
+        38.75,
+        1.25
+      ],
+      "total_spikes": 163635,
+      "active_neurons": 17008,
+      "kc_spikes": 803,
+      "kc_active": 195,
+      "answer_spikes": 105,
+      "wall_seconds": 1.21618,
+      "simulated_ms": 400,
+      "config": "fine_projection4.0_kc6.4",
+      "stimulus": "blank",
+      "retinal_active": 0
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 124244,
+      "active_neurons": 8946,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.50149,
+      "simulated_ms": 400,
+      "config": "fine_projection4.0_kc6.4",
+      "stimulus": 0,
+      "retinal_active": 388
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 131334,
+      "active_neurons": 9111,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.4814,
+      "simulated_ms": 400,
+      "config": "fine_projection4.0_kc6.4",
+      "stimulus": 1,
+      "retinal_active": 552
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        71.875,
+        3.75,
+        70.0,
+        5.0
+      ],
+      "total_spikes": 215507,
+      "active_neurons": 25166,
+      "kc_spikes": 12034,
+      "kc_active": 2992,
+      "answer_spikes": 178,
+      "wall_seconds": 1.39201,
+      "simulated_ms": 400,
+      "config": "fine_projection4.0_kc6.4",
+      "stimulus": 2,
+      "retinal_active": 239
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        48.125,
+        3.75,
+        50.0,
+        1.25
+      ],
+      "total_spikes": 189232,
+      "active_neurons": 17889,
+      "kc_spikes": 1044,
+      "kc_active": 229,
+      "answer_spikes": 121,
+      "wall_seconds": 1.19297,
+      "simulated_ms": 400,
+      "config": "fine_projection4.0_kc6.4",
+      "stimulus": 3,
+      "retinal_active": 622
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        51.25,
+        2.5,
+        47.5,
+        1.25
+      ],
+      "total_spikes": 163245,
+      "active_neurons": 17084,
+      "kc_spikes": 976,
+      "kc_active": 207,
+      "answer_spikes": 123,
+      "wall_seconds": 1.23297,
+      "simulated_ms": 400,
+      "config": "fine_projection4.0_kc6.8",
+      "stimulus": "blank",
+      "retinal_active": 0
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 124244,
+      "active_neurons": 8946,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.5029,
+      "simulated_ms": 400,
+      "config": "fine_projection4.0_kc6.8",
+      "stimulus": 0,
+      "retinal_active": 388
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 131334,
+      "active_neurons": 9111,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.4804,
+      "simulated_ms": 400,
+      "config": "fine_projection4.0_kc6.8",
+      "stimulus": 1,
+      "retinal_active": 552
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        44.375,
+        2.5,
+        45.0,
+        1.25
+      ],
+      "total_spikes": 173534,
+      "active_neurons": 17418,
+      "kc_spikes": 910,
+      "kc_active": 200,
+      "answer_spikes": 110,
+      "wall_seconds": 1.2234,
+      "simulated_ms": 400,
+      "config": "fine_projection4.0_kc6.8",
+      "stimulus": 2,
+      "retinal_active": 239
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        75.0,
+        3.75,
+        77.5,
+        6.25
+      ],
+      "total_spikes": 231544,
+      "active_neurons": 25508,
+      "kc_spikes": 12111,
+      "kc_active": 3001,
+      "answer_spikes": 190,
+      "wall_seconds": 1.47038,
+      "simulated_ms": 400,
+      "config": "fine_projection4.0_kc6.8",
+      "stimulus": 3,
+      "retinal_active": 622
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        98.75,
+        6.25,
+        103.75,
+        12.5
+      ],
+      "total_spikes": 260617,
+      "active_neurons": 26460,
+      "kc_spikes": 24465,
+      "kc_active": 3102,
+      "answer_spikes": 256,
+      "wall_seconds": 1.89568,
+      "simulated_ms": 400,
+      "config": "fine_projection5.0_kc6.4",
+      "stimulus": "blank",
+      "retinal_active": 0
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        46.25,
+        0.0,
+        57.5,
+        0.0
+      ],
+      "total_spikes": 186714,
+      "active_neurons": 17378,
+      "kc_spikes": 1065,
+      "kc_active": 211,
+      "answer_spikes": 120,
+      "wall_seconds": 1.27032,
+      "simulated_ms": 400,
+      "config": "fine_projection5.0_kc6.4",
+      "stimulus": 0,
+      "retinal_active": 388
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        49.375,
+        0.0,
+        55.0,
+        0.0
+      ],
+      "total_spikes": 192001,
+      "active_neurons": 17698,
+      "kc_spikes": 877,
+      "kc_active": 204,
+      "answer_spikes": 123,
+      "wall_seconds": 1.24064,
+      "simulated_ms": 400,
+      "config": "fine_projection5.0_kc6.4",
+      "stimulus": 1,
+      "retinal_active": 552
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        50.0,
+        0.0,
+        45.0,
+        0.0
+      ],
+      "total_spikes": 184711,
+      "active_neurons": 18524,
+      "kc_spikes": 965,
+      "kc_active": 203,
+      "answer_spikes": 116,
+      "wall_seconds": 1.30695,
+      "simulated_ms": 400,
+      "config": "fine_projection5.0_kc6.4",
+      "stimulus": 2,
+      "retinal_active": 239
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        44.375,
+        1.25,
+        52.5,
+        0.0
+      ],
+      "total_spikes": 190770,
+      "active_neurons": 17248,
+      "kc_spikes": 864,
+      "kc_active": 212,
+      "answer_spikes": 114,
+      "wall_seconds": 1.13729,
+      "simulated_ms": 400,
+      "config": "fine_projection5.0_kc6.4",
+      "stimulus": 3,
+      "retinal_active": 622
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        50.625,
+        1.25,
+        51.25,
+        0.0
+      ],
+      "total_spikes": 175263,
+      "active_neurons": 18191,
+      "kc_spikes": 992,
+      "kc_active": 216,
+      "answer_spikes": 123,
+      "wall_seconds": 1.31208,
+      "simulated_ms": 400,
+      "config": "fine_projection5.0_kc6.8",
+      "stimulus": "blank",
+      "retinal_active": 0
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        47.5,
+        1.25,
+        51.25,
+        0.0
+      ],
+      "total_spikes": 186061,
+      "active_neurons": 17252,
+      "kc_spikes": 1046,
+      "kc_active": 218,
+      "answer_spikes": 118,
+      "wall_seconds": 1.24526,
+      "simulated_ms": 400,
+      "config": "fine_projection5.0_kc6.8",
+      "stimulus": 0,
+      "retinal_active": 388
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        50.0,
+        1.25,
+        48.75,
+        0.0
+      ],
+      "total_spikes": 198887,
+      "active_neurons": 18752,
+      "kc_spikes": 1013,
+      "kc_active": 212,
+      "answer_spikes": 120,
+      "wall_seconds": 1.36281,
+      "simulated_ms": 400,
+      "config": "fine_projection5.0_kc6.8",
+      "stimulus": 1,
+      "retinal_active": 552
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        43.125,
+        1.25,
+        50.0,
+        0.0
+      ],
+      "total_spikes": 180884,
+      "active_neurons": 18042,
+      "kc_spikes": 1050,
+      "kc_active": 216,
+      "answer_spikes": 110,
+      "wall_seconds": 1.27973,
+      "simulated_ms": 400,
+      "config": "fine_projection5.0_kc6.8",
+      "stimulus": 2,
+      "retinal_active": 239
+    },
+    {
+      "selected": 2,
+      "rates_hz": [
+        43.125,
+        2.5,
+        43.75,
+        0.0
+      ],
+      "total_spikes": 189111,
+      "active_neurons": 17054,
+      "kc_spikes": 959,
+      "kc_active": 211,
+      "answer_spikes": 106,
+      "wall_seconds": 1.20144,
+      "simulated_ms": 400,
+      "config": "fine_projection5.0_kc6.8",
+      "stimulus": 3,
+      "retinal_active": 622
+    }
+  ],
+  "selected_config": null,
+  "selection_checks": [
+    {
+      "config": "fine_projection2.0_kc6.4",
+      "minimum_pairwise_KC_L1": 0,
+      "qualifies": false
+    },
+    {
+      "config": "fine_projection2.0_kc6.8",
+      "minimum_pairwise_KC_L1": 0,
+      "qualifies": false
+    },
+    {
+      "config": "fine_projection3.0_kc6.4",
+      "minimum_pairwise_KC_L1": 0,
+      "qualifies": false
+    },
+    {
+      "config": "fine_projection3.0_kc6.8",
+      "minimum_pairwise_KC_L1": 0,
+      "qualifies": false
+    },
+    {
+      "config": "fine_projection4.0_kc6.4",
+      "minimum_pairwise_KC_L1": 0,
+      "qualifies": false
+    },
+    {
+      "config": "fine_projection4.0_kc6.8",
+      "minimum_pairwise_KC_L1": 0,
+      "qualifies": false
+    },
+    {
+      "config": "fine_projection5.0_kc6.4",
+      "minimum_pairwise_KC_L1": 154,
+      "qualifies": false
+    },
+    {
+      "config": "fine_projection5.0_kc6.8",
+      "minimum_pairwise_KC_L1": 181,
+      "qualifies": false
+    }
+  ]
+}

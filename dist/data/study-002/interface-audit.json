@@ -1,0 +1,461 @@
+{
+  "id": "FLY-002-interface-audit",
+  "created_at": "2026-09-14T17:52:10.992905+00:00",
+  "source_sha256": "6aea48c5224a5bd7b45ee803e80c362dfa0170bd95cc89e03fc50bd373d693dc",
+  "protocol_sha256": "68c0bcf646ff59e1024265fad4fc507f1f8741f60c28d34b30bd627e7d204478",
+  "configs": [
+    {
+      "sensor": "linear",
+      "visual_interface": true,
+      "coverage": "marginal_rank",
+      "kc_recurrent_gain": 0.1,
+      "output_input_gain": 0.1,
+      "external_kc_gain_only": true,
+      "output_tonic": 6.5,
+      "id": "visual_kc6.0_gain1.0",
+      "kc_tonic": 6.0,
+      "kc_input_gain": 1.0
+    },
+    {
+      "sensor": "linear",
+      "visual_interface": true,
+      "coverage": "marginal_rank",
+      "kc_recurrent_gain": 0.1,
+      "output_input_gain": 0.1,
+      "external_kc_gain_only": true,
+      "output_tonic": 6.5,
+      "id": "visual_kc6.0_gain4.0",
+      "kc_tonic": 6.0,
+      "kc_input_gain": 4.0
+    },
+    {
+      "sensor": "linear",
+      "visual_interface": true,
+      "coverage": "marginal_rank",
+      "kc_recurrent_gain": 0.1,
+      "output_input_gain": 0.1,
+      "external_kc_gain_only": true,
+      "output_tonic": 6.5,
+      "id": "visual_kc6.8_gain1.0",
+      "kc_tonic": 6.8,
+      "kc_input_gain": 1.0
+    },
+    {
+      "sensor": "linear",
+      "visual_interface": true,
+      "coverage": "marginal_rank",
+      "kc_recurrent_gain": 0.1,
+      "output_input_gain": 0.1,
+      "external_kc_gain_only": true,
+      "output_tonic": 6.5,
+      "id": "visual_kc6.8_gain4.0",
+      "kc_tonic": 6.8,
+      "kc_input_gain": 4.0
+    }
+  ],
+  "records": [
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 108642,
+      "active_neurons": 8643,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.44134,
+      "simulated_ms": 400,
+      "config": "visual_kc6.0_gain1.0",
+      "stimulus": "blank",
+      "retinal_active": 0
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 123796,
+      "active_neurons": 8807,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.44976,
+      "simulated_ms": 400,
+      "config": "visual_kc6.0_gain1.0",
+      "stimulus": 0,
+      "retinal_active": 388
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 130971,
+      "active_neurons": 8946,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.61777,
+      "simulated_ms": 400,
+      "config": "visual_kc6.0_gain1.0",
+      "stimulus": 1,
+      "retinal_active": 552
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 117724,
+      "active_neurons": 8750,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.47756,
+      "simulated_ms": 400,
+      "config": "visual_kc6.0_gain1.0",
+      "stimulus": 2,
+      "retinal_active": 239
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 132958,
+      "active_neurons": 8870,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.46483,
+      "simulated_ms": 400,
+      "config": "visual_kc6.0_gain1.0",
+      "stimulus": 3,
+      "retinal_active": 622
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 108645,
+      "active_neurons": 8646,
+      "kc_spikes": 2,
+      "kc_active": 2,
+      "answer_spikes": 0,
+      "wall_seconds": 0.45914,
+      "simulated_ms": 400,
+      "config": "visual_kc6.0_gain4.0",
+      "stimulus": "blank",
+      "retinal_active": 0
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 123619,
+      "active_neurons": 8810,
+      "kc_spikes": 3,
+      "kc_active": 2,
+      "answer_spikes": 0,
+      "wall_seconds": 0.48022,
+      "simulated_ms": 400,
+      "config": "visual_kc6.0_gain4.0",
+      "stimulus": 0,
+      "retinal_active": 388
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 130974,
+      "active_neurons": 8949,
+      "kc_spikes": 2,
+      "kc_active": 2,
+      "answer_spikes": 0,
+      "wall_seconds": 0.66825,
+      "simulated_ms": 400,
+      "config": "visual_kc6.0_gain4.0",
+      "stimulus": 1,
+      "retinal_active": 552
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 117727,
+      "active_neurons": 8753,
+      "kc_spikes": 2,
+      "kc_active": 2,
+      "answer_spikes": 0,
+      "wall_seconds": 0.48429,
+      "simulated_ms": 400,
+      "config": "visual_kc6.0_gain4.0",
+      "stimulus": 2,
+      "retinal_active": 239
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 132785,
+      "active_neurons": 8870,
+      "kc_spikes": 2,
+      "kc_active": 2,
+      "answer_spikes": 0,
+      "wall_seconds": 0.47769,
+      "simulated_ms": 400,
+      "config": "visual_kc6.0_gain4.0",
+      "stimulus": 3,
+      "retinal_active": 622
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 108642,
+      "active_neurons": 8643,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.66235,
+      "simulated_ms": 400,
+      "config": "visual_kc6.8_gain1.0",
+      "stimulus": "blank",
+      "retinal_active": 0
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 123796,
+      "active_neurons": 8807,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.45918,
+      "simulated_ms": 400,
+      "config": "visual_kc6.8_gain1.0",
+      "stimulus": 0,
+      "retinal_active": 388
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 130971,
+      "active_neurons": 8946,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.47408,
+      "simulated_ms": 400,
+      "config": "visual_kc6.8_gain1.0",
+      "stimulus": 1,
+      "retinal_active": 552
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 117724,
+      "active_neurons": 8750,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.4592,
+      "simulated_ms": 400,
+      "config": "visual_kc6.8_gain1.0",
+      "stimulus": 2,
+      "retinal_active": 239
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 132958,
+      "active_neurons": 8870,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.47793,
+      "simulated_ms": 400,
+      "config": "visual_kc6.8_gain1.0",
+      "stimulus": 3,
+      "retinal_active": 622
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 108645,
+      "active_neurons": 8646,
+      "kc_spikes": 2,
+      "kc_active": 2,
+      "answer_spikes": 0,
+      "wall_seconds": 0.50037,
+      "simulated_ms": 400,
+      "config": "visual_kc6.8_gain4.0",
+      "stimulus": "blank",
+      "retinal_active": 0
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 123619,
+      "active_neurons": 8810,
+      "kc_spikes": 3,
+      "kc_active": 2,
+      "answer_spikes": 0,
+      "wall_seconds": 0.48646,
+      "simulated_ms": 400,
+      "config": "visual_kc6.8_gain4.0",
+      "stimulus": 0,
+      "retinal_active": 388
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 130975,
+      "active_neurons": 8950,
+      "kc_spikes": 3,
+      "kc_active": 3,
+      "answer_spikes": 0,
+      "wall_seconds": 0.47807,
+      "simulated_ms": 400,
+      "config": "visual_kc6.8_gain4.0",
+      "stimulus": 1,
+      "retinal_active": 552
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 117727,
+      "active_neurons": 8753,
+      "kc_spikes": 2,
+      "kc_active": 2,
+      "answer_spikes": 0,
+      "wall_seconds": 0.5967,
+      "simulated_ms": 400,
+      "config": "visual_kc6.8_gain4.0",
+      "stimulus": 2,
+      "retinal_active": 239
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 132785,
+      "active_neurons": 8870,
+      "kc_spikes": 2,
+      "kc_active": 2,
+      "answer_spikes": 0,
+      "wall_seconds": 0.47405,
+      "simulated_ms": 400,
+      "config": "visual_kc6.8_gain4.0",
+      "stimulus": 3,
+      "retinal_active": 622
+    }
+  ],
+  "selected_config": null,
+  "selection_checks": [
+    {
+      "config": "visual_kc6.0_gain1.0",
+      "minimum_pairwise_KC_L1": 0,
+      "qualifies": false
+    },
+    {
+      "config": "visual_kc6.0_gain4.0",
+      "minimum_pairwise_KC_L1": 0,
+      "qualifies": false
+    },
+    {
+      "config": "visual_kc6.8_gain1.0",
+      "minimum_pairwise_KC_L1": 0,
+      "qualifies": false
+    },
+    {
+      "config": "visual_kc6.8_gain4.0",
+      "minimum_pairwise_KC_L1": 0,
+      "qualifies": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090c0d">
+<title>FLY · The German citizenship test</title>
+<meta name="description" content="Can a fly pass Germany’s citizenship test before me? Follow a connectome-based experiment through visual learning, 33 questions, and the measured findings.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23090c0d'/%3E%3Cpath d='M17 16h32v8H26v9h19v8H26v15h-9z' fill='%23e3fc02'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/":"./vendor/addons/"}}</script>
+</head>
+<body>
+<header class="masthead"><a class="wordmark" href="./" aria-label="FLY home">FLY<span class="brand-square"></span></a><div class="project-title">THE GERMAN<br>CITIZENSHIP TEST</div><nav aria-label="Experiment phases"><button class="phase active" data-phase="observe">01 <span>TRAIN</span></button><button class="phase" data-phase="experiment">02 <span>TEST</span></button><button class="phase" data-phase="evidence">03 <span>ANALYZE</span></button></nav><button class="about-button" id="aboutButton">The science <span>↗</span></button></header>
+<main class="experiment-shell">
+<section class="specimen" aria-label="Interactive 3D fly and neural anatomy">
+<div class="specimen-heading"><span class="micro">DROSOPHILA MELANOGASTER</span><div class="view-switch" role="group" aria-label="Camera view"><button data-view="both" class="selected">Body + brain</button><button data-view="brain">Brain</button><button data-view="fly">Fly</button></div></div>
+<div id="scene" class="scene"><div class="scene-loading" id="sceneLoading"><span class="load-symbol"></span><p>Preparing the specimen</p></div></div>
+<div class="anatomy-caption"><span id="anatomyLabel">MALE CNS · ANATOMICAL VIEW</span><span>Drag to rotate · Scroll to zoom</span></div>
+<div class="neuron-legend"><span><i></i> Neural anatomy</span><span><i></i> Recorded model spikes</span></div><p class="visual-note" id="visualNote">Head-aligned brain · 4× enlargement · 630 neurons shown<br>Illustrative body motion</p>
+<div class="camera-angles" role="group" aria-label="Inspection angle"><button class="selected" data-camera="front" aria-pressed="true">Front</button><button data-camera="side" aria-pressed="false">Side</button><button data-camera="top" aria-pressed="false">Top</button></div>
+<div class="stage-caption"><span id="stageChapter">THE CHALLENGE</span><p id="stageNarration">A tiny fly. A very human test.</p></div>
+<div class="neural-pathway" aria-label="Recorded signal pathway"><div class="pathway-node">Retina<span>pixel input</span></div><b>→</b><div class="pathway-node">Vision<span>neural response</span></div><b>→</b><div class="pathway-node">Memory<span>Kenyon cells</span></div><b>→</b><div class="pathway-node">Answer<span>A / B / C / D</span></div></div>
+<div class="neural-strip"><div><span class="micro">RETAINED NEURONS</span><strong id="neuronCount"> · </strong></div><div><span class="micro">DIRECTED CONNECTIONS</span><strong id="edgeCount"> · </strong></div><div><span class="micro">MODEL STATUS</span><strong id="modelStatus" class="small-value">Preparing</strong></div><button id="motionButton" class="icon-button" aria-label="Pause specimen animation">Ⅱ</button></div>
+</section>
+<section class="paper" aria-label="Citizenship experiment">
+<div class="paper-header"><span class="micro">EINBÜRGERUNGSTEST</span><span class="region">BERLIN</span></div>
+<div class="paper-content" id="paperContent"><div class="paper-overline">TINY BRAIN. BIG QUESTIONS.</div><h1 class="challenge-title">Can a fly pass<br>the German<br>citizenship test?</h1>
+<p class="challenge-intro">Before me, ideally. But could we actually train it · and how long would it take?</p>
+<div class="challenge-rules"><span><strong>33</strong> questions</span><span><strong>17</strong> to pass</span><span><strong>60</strong> minutes</span></div>
+<a class="latest-study" href="lab.html"><span>NEW / LAB NOTE 002</span><strong>It learned four neural signals. ↗</strong><small>32/32 · replicated at 30/32 · direct stimulation</small></a>
+<button class="primary-button" id="startButton">Replay attempt 001 <span>↗</span></button><a class="research-entry" href="research.html">Could it learn? Read the research ↗</a><p class="small-note" id="runNote">Recorded learning attempt → test → analysis</p>
+<div class="journey-chapters" aria-label="Explore the experiment"><button id="learnChapter"><span>01</span><div><strong>Train</strong><small>First, teach it to see.</small></div></button><button id="examChapter"><span>02</span><div><strong>Test</strong><small>33 questions.</small></div></button><button id="findingsButton"><span>03</span><div><strong>Investigate</strong><small>Findings & sources.</small></div></button></div>
+<p class="current-attempt" id="findingConclusion">Loading the measured result…</p></div>
+<div class="paper-footer"><span id="paperState">SOURCE: OFFICIAL QUESTION CATALOGUE</span><span class="paper-number" id="paperNumber">001</span></div>
+</section>
+</main>
+<footer class="control-bar"><div class="playback"><span class="status-light"></span><span id="playbackMode">ANATOMY</span><button id="playButton" aria-label="Play or pause experiment">▶</button><select id="speedControl" aria-label="Playback speed"><option value="1">1×</option><option value="5" selected>5×</option><option value="20">20×</option></select></div><div class="progress-wrap"><input id="progressControl" type="range" min="0" max="100" value="0" aria-label="Experiment progress"><span id="progressLabel">Awaiting an experiment</span></div><button class="evidence-link" id="evidenceButton">View the evidence <span>↗</span></button></footer>
+<dialog id="detailsDialog"><div class="dialog-header"><span class="micro">FLY / OPEN EXPERIMENT</span><button id="closeDialog" aria-label="Close details">×</button></div><div id="dialogContent"></div></dialog>
+<script type="module" src="app.js"></script>
+</body></html>

@@ -1,0 +1,1131 @@
+{
+  "id": "FLY-002-sensory-audit",
+  "created_at": "2026-09-14T17:46:56.942139+00:00",
+  "source_sha256": "9f247b259f449379005d7362e972e4d973b4e2e962d26e8394d8d0f3b2867bed",
+  "protocol_sha256": "f188b7e71396da7c06d06d16e2ebf103cc1d6bc2ca9b32966a45df332897cb87",
+  "configs": [
+    {
+      "id": "legacy",
+      "sensor": "legacy"
+    },
+    {
+      "id": "linear",
+      "sensor": "linear"
+    },
+    {
+      "id": "tonic6",
+      "sensor": "linear",
+      "kc_tonic": 6.0,
+      "output_tonic": 6.0
+    },
+    {
+      "id": "tonic6_gain4",
+      "sensor": "linear",
+      "kc_tonic": 6.0,
+      "output_tonic": 6.0,
+      "kc_input_gain": 4.0
+    }
+  ],
+  "records": [
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 108642,
+      "active_neurons": 8643,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.46575,
+      "simulated_ms": 400,
+      "config": "legacy",
+      "stimulus": "blank",
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -51.02089309692383,
+          "max_observed_conductance": 4.390256404876709
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 93561,
+          "active": 7114,
+          "max_observed_voltage": -45.00001907348633,
+          "max_observed_conductance": 17.496644973754883
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 41,
+          "active": 17,
+          "max_observed_voltage": -45.1114387512207,
+          "max_observed_conductance": 101.95161437988281
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -49.65635299682617,
+          "max_observed_conductance": 12.72206974029541
+        },
+        "output": {
+          "count": 12,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -52.0,
+          "max_observed_conductance": 0.0
+        }
+      }
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 143604,
+      "active_neurons": 8957,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.46946,
+      "simulated_ms": 400,
+      "config": "legacy",
+      "stimulus": 0,
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 41028,
+          "active": 789,
+          "max_observed_voltage": -45.176692962646484,
+          "max_observed_conductance": 4.390256404876709
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 87884,
+          "active": 6669,
+          "max_observed_voltage": -45.0000114440918,
+          "max_observed_conductance": 16.590599060058594
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 47,
+          "active": 15,
+          "max_observed_voltage": -45.05458450317383,
+          "max_observed_conductance": 94.73710632324219
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -49.99312973022461,
+          "max_observed_conductance": 3.460782289505005
+        },
+        "output": {
+          "count": 12,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -52.0,
+          "max_observed_conductance": 0.0
+        }
+      }
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 156146,
+      "active_neurons": 9108,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.46209,
+      "simulated_ms": 400,
+      "config": "legacy",
+      "stimulus": 1,
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 54236,
+          "active": 1043,
+          "max_observed_voltage": -45.064537048339844,
+          "max_observed_conductance": 4.390255928039551
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 87289,
+          "active": 6636,
+          "max_observed_voltage": -45.000003814697266,
+          "max_observed_conductance": 16.437734603881836
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 50,
+          "active": 17,
+          "max_observed_voltage": -45.217193603515625,
+          "max_observed_conductance": 101.13102722167969
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -49.89128112792969,
+          "max_observed_conductance": 14.090368270874023
+        },
+        "output": {
+          "count": 12,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -52.0,
+          "max_observed_conductance": 0.0
+        }
+      }
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 109174,
+      "active_neurons": 8636,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.52756,
+      "simulated_ms": 400,
+      "config": "legacy",
+      "stimulus": 2,
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 780,
+          "active": 15,
+          "max_observed_voltage": -45.064537048339844,
+          "max_observed_conductance": 4.390256404876709
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 93349,
+          "active": 7102,
+          "max_observed_voltage": -45.00022888183594,
+          "max_observed_conductance": 17.428773880004883
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 40,
+          "active": 17,
+          "max_observed_voltage": -45.15453338623047,
+          "max_observed_conductance": 101.95161437988281
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -49.65635299682617,
+          "max_observed_conductance": 12.926141738891602
+        },
+        "output": {
+          "count": 12,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -52.0,
+          "max_observed_conductance": 0.0
+        }
+      }
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 134432,
+      "active_neurons": 8870,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.46637,
+      "simulated_ms": 400,
+      "config": "legacy",
+      "stimulus": 3,
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 29536,
+          "active": 568,
+          "max_observed_voltage": -45.064537048339844,
+          "max_observed_conductance": 4.390256404876709
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 90136,
+          "active": 6840,
+          "max_observed_voltage": -45.000022888183594,
+          "max_observed_conductance": 18.11716079711914
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 40,
+          "active": 17,
+          "max_observed_voltage": -45.0294303894043,
+          "max_observed_conductance": 101.95161437988281
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -49.65555953979492,
+          "max_observed_conductance": 12.880866050720215
+        },
+        "output": {
+          "count": 12,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -52.0,
+          "max_observed_conductance": 0.0
+        }
+      }
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 108642,
+      "active_neurons": 8643,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.4467,
+      "simulated_ms": 400,
+      "config": "linear",
+      "stimulus": "blank",
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -51.02089309692383,
+          "max_observed_conductance": 4.390256404876709
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 93561,
+          "active": 7114,
+          "max_observed_voltage": -45.00001907348633,
+          "max_observed_conductance": 17.496644973754883
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 41,
+          "active": 17,
+          "max_observed_voltage": -45.1114387512207,
+          "max_observed_conductance": 101.95161437988281
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -49.65635299682617,
+          "max_observed_conductance": 12.72206974029541
+        },
+        "output": {
+          "count": 12,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -52.0,
+          "max_observed_conductance": 0.0
+        }
+      }
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 139011,
+      "active_neurons": 8978,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.4586,
+      "simulated_ms": 400,
+      "config": "linear",
+      "stimulus": 0,
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 36294,
+          "active": 789,
+          "max_observed_voltage": -45.407310485839844,
+          "max_observed_conductance": 4.390256404876709
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 88025,
+          "active": 6688,
+          "max_observed_voltage": -45.0000114440918,
+          "max_observed_conductance": 16.36394691467285
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 47,
+          "active": 15,
+          "max_observed_voltage": -45.00803756713867,
+          "max_observed_conductance": 94.69482421875
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -49.99312973022461,
+          "max_observed_conductance": 3.460782289505005
+        },
+        "output": {
+          "count": 12,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -52.0,
+          "max_observed_conductance": 0.0
+        }
+      }
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 150285,
+      "active_neurons": 9129,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.5938,
+      "simulated_ms": 400,
+      "config": "linear",
+      "stimulus": 1,
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 47977,
+          "active": 1043,
+          "max_observed_voltage": -45.407310485839844,
+          "max_observed_conductance": 4.390255928039551
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 87607,
+          "active": 6653,
+          "max_observed_voltage": -45.00014114379883,
+          "max_observed_conductance": 18.30553436279297
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 50,
+          "active": 17,
+          "max_observed_voltage": -45.16117858886719,
+          "max_observed_conductance": 101.05510711669922
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -49.89207458496094,
+          "max_observed_conductance": 5.095550060272217
+        },
+        "output": {
+          "count": 12,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -52.0,
+          "max_observed_conductance": 0.0
+        }
+      }
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 109297,
+      "active_neurons": 8642,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.4452,
+      "simulated_ms": 400,
+      "config": "linear",
+      "stimulus": 2,
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 690,
+          "active": 15,
+          "max_observed_voltage": -45.692100524902344,
+          "max_observed_conductance": 4.390256404876709
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 93546,
+          "active": 7102,
+          "max_observed_voltage": -45.00008010864258,
+          "max_observed_conductance": 18.004045486450195
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 43,
+          "active": 18,
+          "max_observed_voltage": -45.03127670288086,
+          "max_observed_conductance": 101.95161437988281
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -49.60032272338867,
+          "max_observed_conductance": 12.926141738891602
+        },
+        "output": {
+          "count": 12,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -52.0,
+          "max_observed_conductance": 0.0
+        }
+      }
+    },
+    {
+      "selected": null,
+      "rates_hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 131337,
+      "active_neurons": 8883,
+      "kc_spikes": 0,
+      "kc_active": 0,
+      "answer_spikes": 0,
+      "wall_seconds": 0.46592,
+      "simulated_ms": 400,
+      "config": "linear",
+      "stimulus": 3,
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 26128,
+          "active": 568,
+          "max_observed_voltage": -45.407310485839844,
+          "max_observed_conductance": 4.488553524017334
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 90393,
+          "active": 6850,
+          "max_observed_voltage": -45.00001907348633,
+          "max_observed_conductance": 18.639131546020508
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 44,
+          "active": 17,
+          "max_observed_voltage": -45.122474670410156,
+          "max_observed_conductance": 101.95161437988281
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -49.65555953979492,
+          "max_observed_conductance": 12.98894214630127
+        },
+        "output": {
+          "count": 12,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -52.0,
+          "max_observed_conductance": 0.0
+        }
+      }
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        2.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 108588,
+      "active_neurons": 8651,
+      "kc_spikes": 2,
+      "kc_active": 2,
+      "answer_spikes": 2,
+      "wall_seconds": 0.46257,
+      "simulated_ms": 400,
+      "config": "tonic6",
+      "stimulus": "blank",
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -51.02089309692383,
+          "max_observed_conductance": 4.390256404876709
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 93491,
+          "active": 7114,
+          "max_observed_voltage": -45.00001907348633,
+          "max_observed_conductance": 17.447078704833984
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 42,
+          "active": 17,
+          "max_observed_voltage": -45.143890380859375,
+          "max_observed_conductance": 101.95161437988281
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 2,
+          "active": 2,
+          "max_observed_voltage": -45.40389633178711,
+          "max_observed_conductance": 11.709988594055176
+        },
+        "output": {
+          "count": 12,
+          "spikes": 2,
+          "active": 2,
+          "max_observed_voltage": -46.0,
+          "max_observed_conductance": 0.6611601710319519
+        }
+      }
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        173.75,
+        115.0,
+        66.25,
+        6.25
+      ],
+      "total_spikes": 207869,
+      "active_neurons": 17184,
+      "kc_spikes": 7204,
+      "kc_active": 252,
+      "answer_spikes": 386,
+      "wall_seconds": 1.33652,
+      "simulated_ms": 400,
+      "config": "tonic6",
+      "stimulus": 0,
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 36294,
+          "active": 789,
+          "max_observed_voltage": -45.407310485839844,
+          "max_observed_conductance": 4.390256404876709
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 84876,
+          "active": 6687,
+          "max_observed_voltage": -45.0000114440918,
+          "max_observed_conductance": 19.166027069091797
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 974,
+          "active": 203,
+          "max_observed_voltage": -45.00115966796875,
+          "max_observed_conductance": 126.85283660888672
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 7204,
+          "active": 252,
+          "max_observed_voltage": -45.00016784667969,
+          "max_observed_conductance": 66.82811737060547
+        },
+        "output": {
+          "count": 12,
+          "spikes": 386,
+          "active": 11,
+          "max_observed_voltage": -45.203582763671875,
+          "max_observed_conductance": 187.8849334716797
+        }
+      }
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        182.5,
+        115.0,
+        77.5,
+        6.875
+      ],
+      "total_spikes": 220150,
+      "active_neurons": 16825,
+      "kc_spikes": 7342,
+      "kc_active": 250,
+      "answer_spikes": 403,
+      "wall_seconds": 1.22149,
+      "simulated_ms": 400,
+      "config": "tonic6",
+      "stimulus": 1,
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 47975,
+          "active": 1043,
+          "max_observed_voltage": -45.407310485839844,
+          "max_observed_conductance": 4.390255928039551
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 84254,
+          "active": 6651,
+          "max_observed_voltage": -45.00002670288086,
+          "max_observed_conductance": 17.32085609436035
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 966,
+          "active": 164,
+          "max_observed_voltage": -45.001991271972656,
+          "max_observed_conductance": 101.05510711669922
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 7342,
+          "active": 250,
+          "max_observed_voltage": -45.006412506103516,
+          "max_observed_conductance": 71.82901763916016
+        },
+        "output": {
+          "count": 12,
+          "spikes": 403,
+          "active": 12,
+          "max_observed_voltage": -45.031742095947266,
+          "max_observed_conductance": 103.67510223388672
+        }
+      }
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        2.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 109262,
+      "active_neurons": 8646,
+      "kc_spikes": 2,
+      "kc_active": 2,
+      "answer_spikes": 2,
+      "wall_seconds": 0.4534,
+      "simulated_ms": 400,
+      "config": "tonic6",
+      "stimulus": 2,
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 690,
+          "active": 15,
+          "max_observed_voltage": -45.692100524902344,
+          "max_observed_conductance": 4.664725303649902
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 93473,
+          "active": 7102,
+          "max_observed_voltage": -45.000057220458984,
+          "max_observed_conductance": 20.172155380249023
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 39,
+          "active": 17,
+          "max_observed_voltage": -45.063743591308594,
+          "max_observed_conductance": 101.95161437988281
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 2,
+          "active": 2,
+          "max_observed_voltage": -45.40389633178711,
+          "max_observed_conductance": 11.91405963897705
+        },
+        "output": {
+          "count": 12,
+          "spikes": 2,
+          "active": 2,
+          "max_observed_voltage": -46.0,
+          "max_observed_conductance": 0.6611601710319519
+        }
+      }
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        2.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_spikes": 131342,
+      "active_neurons": 8888,
+      "kc_spikes": 2,
+      "kc_active": 2,
+      "answer_spikes": 2,
+      "wall_seconds": 0.46728,
+      "simulated_ms": 400,
+      "config": "tonic6",
+      "stimulus": 3,
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 26128,
+          "active": 568,
+          "max_observed_voltage": -45.407310485839844,
+          "max_observed_conductance": 4.488553524017334
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 90393,
+          "active": 6850,
+          "max_observed_voltage": -45.00001907348633,
+          "max_observed_conductance": 18.639131546020508
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 44,
+          "active": 17,
+          "max_observed_voltage": -45.15495681762695,
+          "max_observed_conductance": 101.95161437988281
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 2,
+          "active": 2,
+          "max_observed_voltage": -45.39856719970703,
+          "max_observed_conductance": 11.976840019226074
+        },
+        "output": {
+          "count": 12,
+          "spikes": 2,
+          "active": 2,
+          "max_observed_voltage": -46.0,
+          "max_observed_conductance": 0.6611601710319519
+        }
+      }
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        315.0,
+        255.0,
+        231.25,
+        213.125
+      ],
+      "total_spikes": 567477,
+      "active_neurons": 25671,
+      "kc_spikes": 257935,
+      "kc_active": 4064,
+      "answer_spikes": 1186,
+      "wall_seconds": 2.77691,
+      "simulated_ms": 400,
+      "config": "tonic6_gain4",
+      "stimulus": "blank",
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 0,
+          "active": 0,
+          "max_observed_voltage": -50.87513732910156,
+          "max_observed_conductance": 4.390256404876709
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 89058,
+          "active": 7114,
+          "max_observed_voltage": -45.000003814697266,
+          "max_observed_conductance": 19.146236419677734
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 1383,
+          "active": 171,
+          "max_observed_voltage": -45.00868606567383,
+          "max_observed_conductance": 123.95853424072266
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 257935,
+          "active": 4064,
+          "max_observed_voltage": -45.00007247924805,
+          "max_observed_conductance": 416.0850524902344
+        },
+        "output": {
+          "count": 12,
+          "spikes": 1186,
+          "active": 12,
+          "max_observed_voltage": -45.23549270629883,
+          "max_observed_conductance": 847.5753173828125
+        }
+      }
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        316.25,
+        255.625,
+        233.75,
+        212.5
+      ],
+      "total_spikes": 599036,
+      "active_neurons": 25987,
+      "kc_spikes": 258344,
+      "kc_active": 4064,
+      "answer_spikes": 1189,
+      "wall_seconds": 2.69956,
+      "simulated_ms": 400,
+      "config": "tonic6_gain4",
+      "stimulus": 0,
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 36294,
+          "active": 789,
+          "max_observed_voltage": -45.407310485839844,
+          "max_observed_conductance": 4.59754753112793
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 83462,
+          "active": 6687,
+          "max_observed_voltage": -45.0000114440918,
+          "max_observed_conductance": 17.75212860107422
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 1416,
+          "active": 173,
+          "max_observed_voltage": -45.009544372558594,
+          "max_observed_conductance": 126.12700653076172
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 258344,
+          "active": 4064,
+          "max_observed_voltage": -45.000083923339844,
+          "max_observed_conductance": 345.4248962402344
+        },
+        "output": {
+          "count": 12,
+          "spikes": 1189,
+          "active": 12,
+          "max_observed_voltage": -45.10111618041992,
+          "max_observed_conductance": 550.5070190429688
+        }
+      }
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        317.5,
+        256.875,
+        233.75,
+        216.25
+      ],
+      "total_spikes": 616237,
+      "active_neurons": 26196,
+      "kc_spikes": 262226,
+      "kc_active": 4064,
+      "answer_spikes": 1198,
+      "wall_seconds": 2.74984,
+      "simulated_ms": 400,
+      "config": "tonic6_gain4",
+      "stimulus": 1,
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 47975,
+          "active": 1043,
+          "max_observed_voltage": -45.296630859375,
+          "max_observed_conductance": 4.390255928039551
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 83043,
+          "active": 6651,
+          "max_observed_voltage": -45.00006866455078,
+          "max_observed_conductance": 18.760379791259766
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 1492,
+          "active": 181,
+          "max_observed_voltage": -45.0018424987793,
+          "max_observed_conductance": 125.21316528320312
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 262226,
+          "active": 4064,
+          "max_observed_voltage": -45.00054168701172,
+          "max_observed_conductance": 437.49859619140625
+        },
+        "output": {
+          "count": 12,
+          "spikes": 1198,
+          "active": 12,
+          "max_observed_voltage": -45.19820785522461,
+          "max_observed_conductance": 443.9461975097656
+        }
+      }
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        313.75,
+        255.0,
+        230.0,
+        213.75
+      ],
+      "total_spikes": 570856,
+      "active_neurons": 25616,
+      "kc_spikes": 259652,
+      "kc_active": 4064,
+      "answer_spikes": 1185,
+      "wall_seconds": 2.75898,
+      "simulated_ms": 400,
+      "config": "tonic6_gain4",
+      "stimulus": 2,
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 690,
+          "active": 15,
+          "max_observed_voltage": -45.692100524902344,
+          "max_observed_conductance": 4.390256404876709
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 88838,
+          "active": 7102,
+          "max_observed_voltage": -45.00005340576172,
+          "max_observed_conductance": 17.036178588867188
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 1447,
+          "active": 172,
+          "max_observed_voltage": -45.00403594970703,
+          "max_observed_conductance": 119.57424926757812
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 259652,
+          "active": 4064,
+          "max_observed_voltage": -45.000511169433594,
+          "max_observed_conductance": 427.85723876953125
+        },
+        "output": {
+          "count": 12,
+          "spikes": 1185,
+          "active": 12,
+          "max_observed_voltage": -45.09595489501953,
+          "max_observed_conductance": 985.47119140625
+        }
+      }
+    },
+    {
+      "selected": 0,
+      "rates_hz": [
+        313.75,
+        253.75,
+        232.5,
+        214.375
+      ],
+      "total_spikes": 590303,
+      "active_neurons": 25770,
+      "kc_spikes": 258565,
+      "kc_active": 4064,
+      "answer_spikes": 1186,
+      "wall_seconds": 2.6368,
+      "simulated_ms": 400,
+      "config": "tonic6_gain4",
+      "stimulus": 3,
+      "groups": {
+        "retina": {
+          "count": 3335,
+          "spikes": 26128,
+          "active": 568,
+          "max_observed_voltage": -45.407310485839844,
+          "max_observed_conductance": 4.390256404876709
+        },
+        "lamina": {
+          "count": 7114,
+          "spikes": 85813,
+          "active": 6849,
+          "max_observed_voltage": -45.000022888183594,
+          "max_observed_conductance": 16.778404235839844
+        },
+        "visual_projection": {
+          "count": 9201,
+          "spikes": 1444,
+          "active": 182,
+          "max_observed_voltage": -45.01478958129883,
+          "max_observed_conductance": 129.8359832763672
+        },
+        "kc": {
+          "count": 4064,
+          "spikes": 258565,
+          "active": 4064,
+          "max_observed_voltage": -45.00019454956055,
+          "max_observed_conductance": 468.880859375
+        },
+        "output": {
+          "count": 12,
+          "spikes": 1186,
+          "active": 12,
+          "max_observed_voltage": -45.04921340942383,
+          "max_observed_conductance": 991.2890014648438
+        }
+      }
+    }
+  ]
+}

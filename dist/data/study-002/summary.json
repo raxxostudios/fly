@@ -1,0 +1,153 @@
+{
+  "id": "FLY-002",
+  "kind": "direct_neural_stimulation_learning_control",
+  "visual_gate_passed": false,
+  "citizenship_training_started": false,
+  "calibration_configurations": 22,
+  "calibration_trials": 110,
+  "experiments": [
+    {
+      "id": "FLY-002-plasticity-control",
+      "scores": {
+        "untrained": 9,
+        "trained": 32,
+        "shuffled_labels": 8
+      },
+      "scores_per_set": {
+        "untrained": [
+          5,
+          4
+        ],
+        "trained": [
+          16,
+          16
+        ],
+        "shuffled_labels": [
+          4,
+          4
+        ]
+      },
+      "trials_per_condition": 32,
+      "changed_connections": 178,
+      "trained_weight_sha256": "5f2a9fa290d5c1d0269d7efc2d1431aea1f89d3094b0819e7f4c515a7d82ba49",
+      "training_kernel_seconds": 1.78,
+      "training_blocks": [
+        6,
+        8,
+        9,
+        12,
+        15,
+        16,
+        16,
+        16
+      ],
+      "passed_positive_control": true
+    },
+    {
+      "id": "FLY-002-plasticity-control-replication",
+      "scores": {
+        "untrained": 8,
+        "trained": 30,
+        "shuffled_labels": 0
+      },
+      "scores_per_set": {
+        "untrained": [
+          4,
+          4
+        ],
+        "trained": [
+          15,
+          15
+        ],
+        "shuffled_labels": [
+          0,
+          0
+        ]
+      },
+      "trials_per_condition": 32,
+      "changed_connections": 244,
+      "trained_weight_sha256": "652909ef69ad6863f20cfdebaf7a1a267b866bd5f5745ea9021cf8600f99047c",
+      "training_kernel_seconds": 3.943,
+      "training_blocks": [
+        5,
+        8,
+        8,
+        12,
+        15,
+        16,
+        13,
+        15
+      ],
+      "passed_positive_control": true
+    }
+  ],
+  "interventions": [
+    {
+      "condition": "checkpoint_replay",
+      "score": 32,
+      "trials": 32,
+      "weight_sha256": "5f2a9fa290d5c1d0269d7efc2d1431aea1f89d3094b0819e7f4c515a7d82ba49"
+    },
+    {
+      "condition": "learned_weights_reset",
+      "score": 9,
+      "trials": 32,
+      "weight_sha256": "f8eea447a1ce66614b0d9e88712612e6f8f0a9bd677a498bbed5577a7a717d4a"
+    },
+    {
+      "condition": "KC_silenced",
+      "score": 0,
+      "trials": 32,
+      "weight_sha256": "5f2a9fa290d5c1d0269d7efc2d1431aea1f89d3094b0819e7f4c515a7d82ba49"
+    }
+  ],
+  "source_scope": "Google/Janelia MaleCNS anatomy; custom LIF dynamics, sensory encoding, decoder, calibration and supervised local plasticity. No biological-fidelity validation.",
+  "evaluation_scope": "Four familiar neural ensembles, fresh drive amplitudes. Replication uses different ensembles. These are not visual, language or citizenship trials.",
+  "files": [
+    {
+      "path": "audit.json",
+      "sha256": "f3b35128e14ba0196f68fdaa3843824f30a5d32880b1b388ce7afd0a5f9497b5",
+      "bytes": 29790
+    },
+    {
+      "path": "interface-audit.json",
+      "sha256": "f817e2e420520ce7b659b103aded4124efed5231e09f38b3d6db04a9aee34f3f",
+      "bytes": 9984
+    },
+    {
+      "path": "relay-audit.json",
+      "sha256": "aa616a5b28fd8a2d188dd6d1fdfa1a74fb2a5ac5d66686ae27b0a34a03483ae7",
+      "bytes": 15584
+    },
+    {
+      "path": "relay-fine-audit.json",
+      "sha256": "4c89d3b5e08c241003728bd7c697fd443d30973d7ded077910cd165b2f6bf511",
+      "bytes": 20500
+    },
+    {
+      "path": "plasticity-control.json",
+      "sha256": "da85f65a534003f9c6ee7cd3e6464878d997d94f3527ee8c8b9508d0a618c7b9",
+      "bytes": 863427
+    },
+    {
+      "path": "plasticity-control-replication.json",
+      "sha256": "6f87a26a0e7b03c2bf9588113e1052b17f8a36ed55ecee1c6e144261fa569195",
+      "bytes": 901878
+    },
+    {
+      "path": "verification.json",
+      "sha256": "49e22d5f96141fae91ef27e38ec84b72c7b5a80dd49713dd992383aefed61da4",
+      "bytes": 45467
+    },
+    {
+      "path": "plasticity-control-weights.npz",
+      "sha256": "0989f4b0741a5bdfa1d6ec55e815c2c9c743b2dc51ecac5a7068ef26763276af",
+      "bytes": 38798
+    },
+    {
+      "path": "plasticity-control-replication-weights.npz",
+      "sha256": "130694f105f88c7f5457b087cdf9be74474d6de194a0458d162555448667c12b",
+      "bytes": 38991
+    }
+  ]
+}

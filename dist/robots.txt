@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /film.html
+
+Sitemap: https://fly-navy.vercel.app/sitemap.xml

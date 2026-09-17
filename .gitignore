@@ -1,0 +1,37 @@
+# raw and cached research data (rebuilt by scripts/, hashes in data/source-lock.json)
+data/raw/
+data/cache/
+data/skeletons/
+data/*.npz
+data/*.npy
+.venv/
+__pycache__/
+*.pyc
+*.so
+
+# renders, masters and probes (tools/render-all.sh writes here)
+build/
+tmp/
+.sites-runtime/
+
+# toolchain
+node_modules/
+.DS_Store
+
+# deployment and secrets: never tracked
+.vercel
+.env
+.env.*
+*.pem
+*.p8
+*.p12
+
+# working notes that belong to the studio, not to the repository
+handover/
+release/
+DELIVERY.md
+RECOVERY.md
+AGENTS.md
+PROJECT_BRIEF.md
+QA.md
+*.local.md

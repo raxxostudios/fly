@@ -1,0 +1,32 @@
+# FLY: can a fly-brain model survive German bureaucracy?
+
+> An independent computational experiment by RAXXO Studios, presented as a scientific comedy. A model built on the released male fruit fly connectome (Google, HHMI Janelia and collaborators) was set up to learn Germany's citizenship test. It has not passed. The fly's acting, paper storm and brain overload on the website are authored satire. The scores below are recorded results.
+
+## Recorded results
+
+- Graph: 166,700 neurons, 25,582,938 directed cell pairs, 124,177,617 aggregated contacts. The website displays 630 sampled skeletons, not the full simulation graph.
+- FLY-001 visual learning gate: 0/16 held-out trials, zero weight changes. Citizenship training therefore did not start.
+- FLY-001 untrained citizenship practice exam: 0/33, all 33 abstentions. Not an official examination.
+- FLY-002 direct-stimulation learning control: four groups of 16 Kenyon cells, 128 training presentations. First ensembles 9/32 untrained, 32/32 trained, 8/32 shuffled labels, 178 changed weights. Different ensembles 8/32, 30/32, 0/32, 244 changed weights.
+- Checkpoint replay 32/32, learned-weight reset 9/32, Kenyon-cell silencing 0/32.
+- Training used 51.2 simulated seconds; kernel time 1.78 s (first) and 3.943 s (replication). These are not time-to-pass estimates.
+- The 32/32 and 30/32 scores concern four familiar, directly stimulated neural patterns. They are not citizenship or reading results.
+
+## Pages
+
+- [Story and three-question challenge](https://fly-navy.vercel.app/): 68-second scientific comedy with the recorded results.
+- [Learning study](https://fly-navy.vercel.app/lab.html): FLY-002 control, replication and interventions.
+- [Original attempt](https://fly-navy.vercel.app/attempt.html): FLY-001 visual trials and the full 33-question replay.
+- [Research notebook](https://fly-navy.vercel.app/research.html): trainability, failure analysis, primary sources.
+
+## Data and methods
+
+- [Methods and limitations](https://fly-navy.vercel.app/METHOD.md)
+- [Source audit](https://fly-navy.vercel.app/SOURCE-ALIGNMENT.md)
+- [Control summary and hashes](https://fly-navy.vercel.app/data/study-002/summary.json)
+- [33-question baseline](https://fly-navy.vercel.app/data/run.json)
+- [Study source and protocols](https://fly-navy.vercel.app/downloads/FLY-study-source.zip)
+
+## Boundaries
+
+Google and Janelia published anatomy; they did not run this experiment. The body mesh (NeuroMechFly) and brain skeletons come from different specimens; their alignment is a display choice. No language model, OCR or answer lookup chooses answers for the model.

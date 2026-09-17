@@ -1,0 +1,65 @@
+{
+  "kind": "conditional arithmetic, not a measured training duration or time-to-pass forecast",
+  "quiet_seconds_per_example": 1.7303636363636363,
+  "busy_seconds_per_simulated_second": 22.347,
+  "example_simulated_seconds": 1,
+  "catalogue_target_questions": 310,
+  "current_eligible_questions": 246,
+  "baseline_wall_seconds": 57.102,
+  "baseline_questions": 33,
+  "scenarios": [
+    {
+      "epochs": 10,
+      "examples": 3100,
+      "quiet_forward_hours": 1.4900353535353534,
+      "busy_forward_hours": 19.24325
+    },
+    {
+      "epochs": 100,
+      "examples": 31000,
+      "quiet_forward_hours": 14.900353535353535,
+      "busy_forward_hours": 192.4325
+    },
+    {
+      "epochs": 1000,
+      "examples": 310000,
+      "quiet_forward_hours": 149.00353535353537,
+      "busy_forward_hours": 1924.325
+    }
+  ],
+  "pass_probability_model": "Independent identically distributed Bernoulli questions, 33 trials, threshold 17; real errors can be correlated.",
+  "pass_probabilities": [
+    {
+      "per_question_accuracy": 0.25,
+      "probability_of_at_least_17": 0.0009509599956171568
+    },
+    {
+      "per_question_accuracy": 0.5,
+      "probability_of_at_least_17": 0.5
+    },
+    {
+      "per_question_accuracy": 0.6,
+      "probability_of_at_least_17": 0.8789013078056244
+    },
+    {
+      "per_question_accuracy": 0.7,
+      "probability_of_at_least_17": 0.9921793376606215
+    },
+    {
+      "per_question_accuracy": 0.8,
+      "probability_of_at_least_17": 0.9999451089763379
+    }
+  ],
+  "input_contrast": {
+    "paper_luminance": 0.9333333333333333,
+    "ink_luminance": 0.07058823529411765,
+    "luminance_ratio": 13.222222222222221,
+    "paper_drive": 29.37062937062937,
+    "ink_drive": 23.376623376623375
+  },
+  "source_hashes": {
+    "run.json": "060b3eacb2c7eb8d3c7d545ccdedefa7951e99154f59797ef96bc51c0bfcb94b",
+    "learning.json": "dda723175a9a314a9a8f3ab31aff9b4156bfc61e5e1b14ba089a398dae0b402f",
+    "calibration.json": "d816049e5884eeeea805cf57e0c61b63153a78cc6e8123af39bbc42e1aadd1c6"
+  }
+}

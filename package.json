@@ -1,0 +1,24 @@
+{
+  "name": "fly-citizenship-lab",
+  "private": true,
+  "description": "FLY: a fly-brain model versus German citizenship paperwork. Deterministic Three.js story, film pipeline and recorded study data.",
+  "license": "MIT",
+  "homepage": "https://fly-navy.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raxxostudios/fly.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "serve": "python3 -m http.server 5178 -d dist",
+    "validate": "python3 scripts/validate.py",
+    "film": "bash tools/render-all.sh",
+    "verify-live": "bash tools/verify-live.sh"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.58.2",
+    "three": "^0.180.0",
+    "vite": "^7.2.2"
+  }
+}

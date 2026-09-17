@@ -1,0 +1,69 @@
+{
+  "kind": "rigid landmark display alignment; not a biological specimen registration",
+  "display_to_head_matrix": [
+    [
+      -0.016729941693345872,
+      0.99986004473173,
+      0.0
+    ],
+    [
+      0.9988882628840217,
+      0.016713681564004296,
+      -0.04407823863448193
+    ],
+    [
+      -0.04407206965276897,
+      -0.000737426362300268,
+      -0.9990280821272652
+    ]
+  ],
+  "brain_pivot": [
+    0.05799999999999983,
+    -0.605,
+    0.5265
+  ],
+  "optic_centers": {
+    "L": [
+      3.106,
+      -0.554,
+      0.392
+    ],
+    "R": [
+      -2.99,
+      -0.656,
+      0.661
+    ]
+  },
+  "optic_neuron_counts": {
+    "L": 157,
+    "R": 163
+  },
+  "head_anchor": [
+    0.22666133320331575,
+    0.0,
+    -0.006523062467575072
+  ],
+  "eye_centers": {
+    "l_eye": [
+      0.22666133320331575,
+      0.3066653301942594,
+      -0.006523062467575072
+    ],
+    "r_eye": [
+      0.22666133320331575,
+      -0.3066653301942594,
+      -0.006523062467575072
+    ]
+  },
+  "scale_to_head": 0.1005001308938644,
+  "axis_notes": {
+    "source_x": "left, verified against somaSide labels",
+    "source_y": "approximately ventral",
+    "source_z": "posterior, toward T1\u2013T3 nerve-cord segments",
+    "head_x": "anterior",
+    "head_y": "left",
+    "head_z": "dorsal"
+  },
+  "brain_sha256": "3e56d3b7155b3ccbec223af75e6cc28bb919a29054b0a6d3943a0075d20a42ff",
+  "fly_sha256": "ef6134d076e36fc0a136343bf157f23831f612708c5653cf5dada7512a475c2a"
+}

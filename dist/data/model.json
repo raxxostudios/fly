@@ -1,0 +1,85 @@
+{
+  "dataset": "MaleCNS v1.0",
+  "neurons": 166700,
+  "edges": 25582938,
+  "synaptic_contacts": 124177617,
+  "source_edge_rows": 151856684,
+  "excluded_edge_rows": 126273746,
+  "self_edges": 101,
+  "retina_mapped": 3335,
+  "retina_total": 3377,
+  "unknown_transmitter_sign_neurons": 3718,
+  "plastic_candidate_edges": 61210,
+  "groups": {
+    "MBON11": [
+      655,
+      1306
+    ],
+    "MBON12": [
+      3477,
+      3513,
+      130136,
+      131044
+    ],
+    "MBON13": [
+      2550,
+      127463
+    ],
+    "MBON14": [
+      246,
+      1749,
+      7264,
+      8528
+    ],
+    "MBON01": [
+      9,
+      130579
+    ],
+    "MBON02": [
+      131545,
+      131578
+    ],
+    "MBON03": [
+      130138,
+      131276
+    ],
+    "MBON04": [
+      132955,
+      134705
+    ],
+    "DNp20": [
+      48,
+      146
+    ],
+    "DNpe017": [
+      489,
+      142493
+    ],
+    "PPL101": [
+      1235,
+      1774
+    ],
+    "PAM11": [
+      86107,
+      89566,
+      100417,
+      101105,
+      101542,
+      104512,
+      105465,
+      109038,
+      119647,
+      121077,
+      121901,
+      122768,
+      123824,
+      124499,
+      130852
+    ]
+  },
+  "retention": "Assigned neuronal superclass; exclude explicit Glia; all edges between retained entries, including self and weight-one edges.",
+  "dynamics": "Leaky integrate-and-fire proxy; not biological validation.",
+  "source": "https://male-cns.janelia.org/download/",
+  "license": "CC-BY-4.0",
+  "reference_revision": "71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33"
+}
